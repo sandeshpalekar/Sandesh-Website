@@ -178,12 +178,13 @@ body {
 
 .custom_menu-btn span {
   display: block;
-  width: 35px;
-  height: 4.5px;
-  background-color: #000000;
-  margin: 7px 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+    width: 35px;
+    height: 3.5px;
+    background-color: #000000;
+    margin: 7px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
 }
 
 .menu_btn-style {
@@ -209,6 +210,7 @@ body {
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  border-radius: 5px;
 }
 
 .menu_btn-style button .s-1 {
@@ -273,7 +275,8 @@ body {
 
 .overlay-content {
   position: relative;
-  top: 20%;
+  /* top: 20%; */
+  top: 40px;
   width: 100%;
   text-align: center;
   margin-top: 30px;
