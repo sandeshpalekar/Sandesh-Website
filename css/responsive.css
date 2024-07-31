@@ -56,6 +56,12 @@
     .custom_nav-container {
         justify-content: space-between;
     }
+    .navbar-brand span{
+        font-size: 18px;
+    }
+    .overlay a{
+        font-size: 14px;
+    }
 
     .custom_menu-btn span {
         background-color: #fff;
